@@ -1,0 +1,27 @@
+### POST
+POST http://localhost:8080/alunos
+Content-Type: application/json
+
+{
+  "nome": "Isaque Costa",
+  "telefone": "123",
+  "dataDeNascimento": "1996-01-31",
+  "matriculas": [
+    {
+      "codigoMatricula": 123,
+      "nomeCurso": "Engenharia de Software",
+      "dataInicio": "2025-07-15"
+    }
+  ]
+}
+
+
+###
+
+### Listar todos os alunos
+GET http://localhost:8080/alunos
+
+###
+GET http://localhost:8080/alunos/1/matriculas
+
+
