@@ -32,8 +32,6 @@ O projeto foi criado com foco em boas práticas de desenvolvimento backend, orga
 
 ## Estrutura do projeto:
 
-## src
-
 - controller → endpoints REST
 
 -  service → Regras de negócio
